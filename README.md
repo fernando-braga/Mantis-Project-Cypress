@@ -5,7 +5,7 @@ Este projeto contém uma suíte de testes automatizados utilizando **Cypress** p
 ## Estrutura do Projeto
 
 A estrutura de pastas do projeto é organizada da seguinte maneira:
-
+```
 cypress/
 ├── downloads          # Arquivos baixados durante os testes
 ├── e2e                # Definições dos testes end-to-end (arquivos .spec.js)
@@ -19,7 +19,7 @@ cypress.config.js      # Arquivo de configuração do Cypress
 package.json           # Dependências e scripts do projeto
 README.md              # Documentação do projeto
 
-
+```
 
 ## Pré-requisitos
 
