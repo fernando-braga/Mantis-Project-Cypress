@@ -6,7 +6,19 @@ Este projeto contém uma suíte de testes automatizados utilizando **Cypress** p
 
 A estrutura de pastas do projeto é organizada da seguinte maneira:
 
-cypress/ ├── downloads # Arquivos baixados durante os testes ├── e2e # Definições dos testes end-to-end (arquivos .spec.js) │ ├── page_object # Objetos de página usados nos testes (Page Object Model) ├── fixtures # Arquivos de dados de teste (JSON ou outros) ├── support # Arquivos de suporte ao Cypress (custom commands e hooks) ├── reports # Relatórios gerados após a execução dos testes ├── screenshots # Capturas de tela automáticas feitas pelo Cypress node_modules/ # Dependências do projeto cypress.config.js # Arquivo de configuração do Cypress package.json # Dependências e scripts do projeto README.md # Documentação do projeto
+cypress/
+├── downloads          # Arquivos baixados durante os testes
+├── e2e                # Definições dos testes end-to-end (arquivos .spec.js)
+│   ├── page_object    # Objetos de página usados nos testes (Page Object Model)
+├── fixtures           # Arquivos de dados de teste (JSON ou outros)
+├── support            # Arquivos de suporte ao Cypress (custom commands e hooks)
+├── reports            # Relatórios gerados após a execução dos testes
+├── screenshots        # Capturas de tela automáticas feitas pelo Cypress
+node_modules/          # Dependências do projeto
+cypress.config.js      # Arquivo de configuração do Cypress
+package.json           # Dependências e scripts do projeto
+README.md              # Documentação do projeto
+
 
 
 ## Pré-requisitos
